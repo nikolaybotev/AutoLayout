@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,23 +16,20 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" restorationIdentifier="GreenView" translatesAutoresizingMaskIntoConstraints="NO" id="CQD-p5-5b2" userLabel="GreenView">
-                                <rect key="frame" x="20" y="20" width="270" height="280"/>
-                                <color key="backgroundColor" red="0.26525796210000002" green="1" blue="0.55294196299999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.26525796210000002" green="1" blue="0.55294196299999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" restorationIdentifier="YellowView" translatesAutoresizingMaskIntoConstraints="NO" id="8As-BB-Ozk" userLabel="YellowView">
-                                <rect key="frame" x="310" y="20" width="270" height="280"/>
-                                <color key="backgroundColor" red="1" green="0.95072173699999996" blue="0.44405018530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.95072173699999996" blue="0.44405018530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" restorationIdentifier="BlueView" translatesAutoresizingMaskIntoConstraints="NO" id="AP3-rT-J7Z" userLabel="BlueView">
-                                <rect key="frame" x="20" y="320" width="560" height="280"/>
-                                <color key="backgroundColor" name="keyboardFocusIndicatorColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" red="0.18772074580192566" green="0.51381963491439819" blue="0.9836958646774292" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="8As-BB-Ozk" firstAttribute="width" secondItem="CQD-p5-5b2" secondAttribute="width" id="1Ha-4o-L3C"/>
                             <constraint firstItem="8As-BB-Ozk" firstAttribute="leading" secondItem="CQD-p5-5b2" secondAttribute="trailing" constant="20" id="2sZ-tp-eyD"/>
